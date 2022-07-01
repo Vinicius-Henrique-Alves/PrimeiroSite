@@ -1,3 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;    
+    box-sizing: border-box;
+    color:#031927;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+} 
 body{
-    background:linear-gradient(68deg #7df 20%, #09f);
+    background:linear-gradient(60deg, #50cae6 35%,#9ecbe7 80%)
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.headerlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.headeritem{
+    font-size: 24px;
+    padding: 24px;
+}
+main{
+    margin-bottom: 40px;
+}
+.part1{
+    border-top: #333 0.5px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;    
+    padding: 24px;
+}
+.escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+.titulo{
+    padding: 16px;
+    font-size: 64px;
+}
+.paragrafo{
+    padding: 16px;
+    font-size: 24px;
+}
+.mainimage{
+    height: 300px;
+    padding: 24px;
+}
+.part2{ 
+    border-top: #333 0.5px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: left;    
+    padding: 24px;
+    justify-content: space-around;
+}
+.part3{
+    border-top: #333 0.5px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+.projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.subtitulo{
+    font-size: 48px;
+    padding: 24px;
+}
+.info{
+    padding: 24px;
+    font-size: 24px;
+}
+.botao{
+    border-radius: 10px;
+    border: none;
+    width: 104px;
+    height: 28px;
+    box-shadow: 3px 2px 5px #0D2C3E;
+    color: #c94b3d;
+    background-color: #031927;
+}
+.botao:hover{
+    background-color: #c94b3d;
+    color:#031927;
+}
+.fotter{
+    border-top: #031927 0.5px solid;
+    background-color: #435968;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
 }
