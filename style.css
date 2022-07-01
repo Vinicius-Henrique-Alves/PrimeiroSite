@@ -5,6 +5,7 @@
     color:#031927;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    user-select: none;
 } 
 body{
     background:linear-gradient(60deg, #50cae6 35%,#9ecbe7 80%)
@@ -23,6 +24,10 @@ header{
 .headeritem{
     font-size: 24px;
     padding: 24px;
+}
+.headeritem:hover{
+    color: #c94b3d;
+    transition: 0.3s;
 }
 main{
     margin-bottom: 40px;
@@ -62,7 +67,7 @@ main{
     justify-content: space-around;
 }
 .part3{
-    border-top: #333 0.5px solid;
+    border-top:#333 0.5px solid;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -87,18 +92,22 @@ main{
     border-radius: 10px;
     border: none;
     width: 104px;
-    height: 28px;
     box-shadow: 3px 2px 5px #0D2C3E;
     color: #c94b3d;
     background-color: #031927;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
 }
 .botao:hover{
     background-color: #c94b3d;
     color:#031927;
+    transition: 0.3s;
+    cursor: pointer;
 }
 .fotter{
-    border-top: #031927 0.5px solid;
-    background-color: #435968;
+    border-top: #333 0.5px solid;
+    background-color: #b3deff;
     padding: 24px;
     display: flex;
     align-items: center;
