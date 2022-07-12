@@ -40,6 +40,7 @@ main{
     align-items: center;
     justify-content: space-around;    
     padding: 24px;
+ 
 }
 .escrito{
     display: flex;
@@ -60,6 +61,7 @@ main{
     padding: 24px;
 }
 .part2{ 
+    margin: 20px;
     border-top: #333 0.5px solid;
     display: flex;
     flex-direction: row;
@@ -68,6 +70,7 @@ main{
     justify-content: space-around;
 }
 .part3{
+    margin: 20px;
     border-top:#333 0.5px solid;
     display: flex;
     align-items: center;
@@ -79,15 +82,19 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    justify-content: space-around;    
 }
 .subtitulo{
+    text-align: center;
     font-size: 48px;
     padding: 24px;
+    margin: 20px;
 }
 .info{
     padding: 24px;
     font-size: 24px;
+    text-align: center;
+    margin: 20px;
 }
 .botao{
     border-radius: 10px;
@@ -99,6 +106,7 @@ main{
     text-align: center;
     align-items: center;
     padding: 10px;
+    margin: 20px;
 }
 .botao:hover{
     background-color: #c94b3d;
@@ -114,4 +122,5 @@ main{
     justify-content: space-around;
     flex-direction: column;
     background-color: rgb(0, 0, 0, 0.4);
+    text-align: center;
 }
